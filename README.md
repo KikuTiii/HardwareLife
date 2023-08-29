@@ -18,4 +18,4 @@
 |     *business vision diagram     |
 
 <hr>
-   <img src= "https://github.com/KikuTiii/HardwareLife.SPTECH/assets/111128991/2590a06e-8bc0-447f-b0bb-c7e8d44c646f" height="210px" width="100%">
+   <img src= "https://github.com/KikuTiii/HardwareLife.SPTECH/assets/111128991/2590a06e-8bc0-447f-b0bb-c7e8d44c646f"width="100%">

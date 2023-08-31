@@ -2,7 +2,7 @@
 ## FIRST SPRINT GOALS - 2023/09/11:
 
 
-|  P.I.       |        ALORITMOS         |            TI             |
+|  P.I.       |        ALGORITMOS         |            TI             |
 |:-----------:|:------------------------:|:------------------------: |
 |     *Project created and configured on Github     |*website prototype|   *Working project management tool|
 |     *business context     | *financial simulator screen|   *Requirements populated in the tool|

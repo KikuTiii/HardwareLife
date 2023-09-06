@@ -4,7 +4,7 @@
 
 |  P.I.       |        ALGORITMOS         |            TI             |
 |:-----------:|:------------------------:|:------------------------: |
-|     Project created and configured on Github     |website prototype|   Working project management tool|
+|     Project created and configured on Github     |Website prototype|   Working project management tool|
 |     business context     | financial simulator screen|   Requirements populated in the tool|
 |     Project justification     |   | Initial project documentation|
 |     business vision diagram   | |                           |     

@@ -16,7 +16,12 @@ CREATE TABLE administrador(
  CREATE TABLE empresa(
 	id_empresa int primary key auto_increment,
 	cnpj char(18),
-    id_endereco int,
+    logradouro varchar(60),
+    numero varchar(10),
+    bairro varchar(60),
+    cidade varchar(60),
+    uf char(2),
+    cep char(9),
     nome_empresa varchar(50),
     razao_social varchar(100),
     email_empresa varchar(50),
@@ -45,5 +50,5 @@ CREATE TABLE dados(
     pos_z_sensor int,
     temperatura double,
     umidade double,
-    data_hora dateTime default current_timestamp
+    data_hora dateTime
 );

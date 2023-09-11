@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Financeira</title>
+</head>
+<body>
+    
+    <label for="racks">Digite a quantidade de racks: </label>
+    <input type="number" id="racks"><br><br>
+
+    <label for="area">Digite a área do seu data center: </label>
+    <input type="number" id="area"><br><br>
+
+    <label for="servidores">Digite a quantidade de servidores: </label>
+    <input type="number" id="servidores"><br><br>
+
+    <label for="funcionarios">Quantos funcionários trabalham na sala do data center: </label>
+    <input type="number" id="funcionarios">
+
+    <button onclick="precificar()">Calcule seu orçamento</button>
+
+    <div id="resultado"></div>
+
+</body>
+</html>
+
+<script>
+    
+    function precificar(){
+        var quantidadeFuncionarios = Number(funcionarios.value);
+        var quantidadeRack = Number(racks.value);
+        var quantidadeSensor =  Number(quantidadeRack) * 6;
+        var quantidadeServidor = Number(servidores.value);
+        var areaTotal = Number(area.value);
+        var quantidadeDesumidificador = Math.ceil( areaTotal / 90); 
+        var quantidadeArCondicionado = Math.ceil((quantidadeServidor * 600 + areaTotal * 600 + quantidadeFuncionarios * 600) / 120000);
+        var valorDesumidificadores = quantidadeDesumidificador * 5000;
+        var valorAresCondicionados = quantidadeArCondicionado * 30000;
+        var valorPlacaSensor = quantidadeSensor * 80;
+        var precoTotal = valorAresCondicionados + valorDesumidificadores + valorPlacaSensor; 
+
+        resultado.innerHTML = `<br>Você pode esperar um investimento aproximado de R$${precoTotal} com base na simulação realizada. <br>
+        Você tem ${quantidadeServidor} servidores, ${quantidadeFuncionarios} funcionários, ${areaTotal}m² de área e precisará de ${quantidadeArCondicionado} de ar(es)-condicionado(s). <br>
+        Você tem ${quantidadeRack} de rack(s) e precisará de ${quantidadeSensor} sensor(es). <br>
+        Você tem ${areaTotal}m² de área e precisará de ${quantidadeDesumidificador} desumidificador(es)`;
+
+    }
+
+</script>

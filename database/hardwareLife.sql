@@ -45,10 +45,10 @@ CREATE TABLE dados(
 	registro int primary key auto_increment,
     nome_sensor varchar(40),
     id_empresa int,
-    pos_y_sensor int,
     pos_x_sensor int,
+    pos_y_sensor int,
     pos_z_sensor int,
     temperatura double,
     umidade double,
-    data_hora dateTime
+    data_hora dateTime default current_timestamp
 );

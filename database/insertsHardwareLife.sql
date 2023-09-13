@@ -9,8 +9,8 @@ INSERT INTO administrador VALUES
 (null, 'kelvin.christian@hardwarelife.com','Kelvin Christian','123');
 
 INSERT INTO empresa VALUES
-(null, '06.990.590/0001-23', 0,'Google Brasil','Google Brasil Internet LTDA','GOOGLEBRASIL@GOOGLE.COM', '11 23958400'),
-(null, '00.623.904/0001-73', 1,'Apple Brasil','Apple Computer Brasil Ltda.','FISCAL@APPLE.COM','11 55030000');
+(null, '06.990.590/0001-23', 'AV. Brigadeiro Faria Lima','3900','Pinheiros','São Paulo','SP','04538-133','Google Brasil','Google Brasil Internet LTDA','GOOGLEBRASIL@GOOGLE.COM', '11 23958400'),
+(null, '00.623.904/0001-73', 'Rodovia Vice-Prefeito Hermenegildo Tonolli','1500','Distrito Industrial','Jundiaí','SP','13213-086','Apple Brasil','Apple Computer Brasil Ltda.','FISCAL@APPLE.COM','11 55030000');
 
 INSERT INTO funcionario_empresa VALUES
 (null, 'joão.henrique@GOOGLE.COM',1,'João Henrique','951.403.008-77','123'),
@@ -20,9 +20,24 @@ INSERT INTO dados VALUES
 (null, 'DHT11',0 ,3,2,0, 27.3, null, '2023-09-12 10:00:00'),
 (null, 'DHT11',0 ,3,2,0, 28.1, null, '2023-09-12 10:01:00'),
 (null, 'DHT11',0 ,3,2,0, 28.6, null, '2023-09-12 10:02:00'),
-(null, 'DHT11',0 ,3,2,0, 28, null, '2023-09-12 10:03:00'),
+(null, 'DHT11',0 ,3,2,0, 28.0, null, '2023-09-12 10:03:00'),
 (null, 'DHT11',0 ,3,2,0, 27.7, null, '2023-09-12 10:04:00'),
 (null, 'DHT11',0 ,3,2,0, 27.3, null, '2023-09-12 10:05:00'),
+
+(null, 'DHT11',0 ,3,2,1, 27.3, null, '2023-09-12 10:00:00'),
+(null, 'DHT11',0 ,3,2,1, 28.1, null, '2023-09-12 10:01:00'),
+(null, 'DHT11',0 ,3,2,1, 28.6, null, '2023-09-12 10:02:00'),
+(null, 'DHT11',0 ,3,2,1, 28.0, null, '2023-09-12 10:03:00'),
+(null, 'DHT11',0 ,3,2,1, 27.7, null, '2023-09-12 10:04:00'),
+(null, 'DHT11',0 ,3,2,1, 27.3, null, '2023-09-12 10:05:00'),
+
+(null, 'DHT11',0 ,3,2,2, 27.3, null, '2023-09-12 10:00:00'),
+(null, 'DHT11',0 ,3,2,2, 28.1, null, '2023-09-12 10:01:00'),
+(null, 'DHT11',0 ,3,2,2, 28.6, null, '2023-09-12 10:02:00'),
+(null, 'DHT11',0 ,3,2,2, 28.0, null, '2023-09-12 10:03:00'),
+(null, 'DHT11',0 ,3,2,2, 27.7, null, '2023-09-12 10:04:00'),
+(null, 'DHT11',0 ,3,2,2, 27.3, null, '2023-09-12 10:05:00'),
+
 (null, 'MX1102',0 ,1,4,3, 35.7, 42.6, '2023-09-12 10:00:00'),
 (null, 'MX1102',0 ,1,4,3, 35.9, 42.6, '2023-09-12 10:01:00'),
 (null, 'MX1102',0 ,1,4,3, 36.3, 42.6, '2023-09-12 10:02:00'),
